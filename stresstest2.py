@@ -1,3 +1,6 @@
+await pyodide.loadPackagesFromImports(code);
+await pyodide.runPythonAsync(code);
+
 import numpy as np
 
 a = np.array([
